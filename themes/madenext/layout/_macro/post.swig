@@ -53,12 +53,12 @@
               {{ date(post.date, config.date_format) }}
             </time>
           </span>
-          <span class="post-time">
+        <!--  <span class="post-time">
             | 修改于
             <time itemprop="dateCreated" datetime="{{ moment(post.updated).format() }}" content="{{ date(post.updated, config.date_format) }}">
               {{ date(post.updated, config.date_format) }}
             </time>
-          </span>
+          </span>-->
           <span class="post-author">
             | 作者
             <author itemprop="dateAuthor" content="{{ post.author }}">
