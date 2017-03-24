@@ -48,10 +48,13 @@ rm test.txt （从文件夹删除某个文件）
 ```
 
 
-提交文件到GitHub
+从GitHub更新文件到本地
 
 ``` powershell
 $ git clone https://github.com/alpha-huang/alpha.git （下载代码到本地）
+$ git remote -v （查看远程仓库）
+$ git fetch origin master （从远程获取最新版本到本地）
+$ git merge origin/master （远程和本地合并）
 $ cd alpha （进入相应目录）
 ```
 
