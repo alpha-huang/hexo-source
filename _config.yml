@@ -71,5 +71,6 @@ theme: madenext
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/alpha-huang/alpha-huang.github.io
+  # repo: https://github.com/alpha-huang/alpha-huang.github.io
+  repo: git@github.com:alpha-huang/alpha-huang.github.io
   branch: master
