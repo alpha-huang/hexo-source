@@ -71,3 +71,5 @@ var instance = new Sub();
 console.dir(instance.constructor);//f Sub()
 ```
 上面的代码在修改子构造函数的原型后重新为其添加指向子构造函数的constructor属性，就可以了。
+
+相关问题：[csdn论坛](https://bbs.csdn.net/topics/390850551)
