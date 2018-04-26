@@ -139,7 +139,7 @@ npm install hexo-deployer-git --save
 ```javascript
 git add -A
 git commit -m "hexo-admin"
-
+git push
 ```  
 # 五 多人维护和多端维护
 
