@@ -121,6 +121,22 @@ var getUrlParam = function() {
 }
 ```
 
+```javascript
+
+function parseUrl(name,url){
+	url = url || location.href
+	let arr = url.split(/\?|#/)
+	let search = arr[1]
+	let parames = search ? search.split('&') : []
+	let result = {}
+	parames.map(parame=>{
+		let item = parame.split('=')
+		result[item[0]] = item[1]
+	})
+	return name ? result[name] : result;
+}
+```
+
 #### 9.jquery ajax
 
 ``` javascript

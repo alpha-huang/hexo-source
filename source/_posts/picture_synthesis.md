@@ -1,7 +1,8 @@
 title: 3分钟学会图片合成，最简单的图片合成教程
 author: alpha
 tags:
-  - 图片合成，ps
+  - 图片合成
+  - ps
 categories:
   - ps
 date: 2019-10-28 00:53:00

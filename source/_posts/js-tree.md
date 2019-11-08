@@ -1,7 +1,8 @@
 title: 树形结构的算法
 author: alpha
 tags:
-  - 算法,js
+  - 算法
+  - js
 categories:
   - 前端
 date: 2019-08-29 09:44:00
